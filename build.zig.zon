@@ -1,0 +1,16 @@
+.{
+    .name = "dear_zig_bindings",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.14.0-dev.1694+3b465ebec",
+    .paths = .{""},
+    .dependencies = .{
+        .imgui = .{
+            .url = "git+https://github.com/ocornut/imgui#bc77cccd311da97e1f9af67899cb707edaf9c830",
+            .hash = "1220388fad9c32584aec3bba9ccdf7d240ab4e81999e0e567a2d832e54177d908daf",
+        },
+        .dear_bindings = .{
+            .url = "git+https://github.com/dearimgui/dear_bindings#bb3bff376bcda51414f61db4119f502e50d581fc",
+            .hash = "122046bb7173d4165a5e7f10a2330859ad523cfc5a4422dd7753ef7df109032ea148",
+        },
+    },
+}
