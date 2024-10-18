@@ -24,6 +24,7 @@ Then add the `ig` module to your compile step and use it.  You will also need a 
 * Write it in C, interfacing with the Dear Bindings generated headers
 * Write it in C++, interfacing directly with the Dear ImGui headers
 
+You can find an example of the first option here: [Dear (Zig) Bindings: Sokol Backend](https://github.com/bcrist/dear_zig_bindings_sokol)
 For the latter two options, you can use the `NamedWriteFiles` exported as `imgui` to ensure you're using headers which match the static library attached to the `ig` module.
 
 ### Build Dependencies
